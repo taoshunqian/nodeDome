@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e ts --exec ts-node main.ts"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "log4js": "^6.9.1",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.10"
+  }
+}
